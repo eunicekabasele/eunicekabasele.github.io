@@ -142,6 +142,10 @@
       layoutMode: 'fitRows'
     });
 
+    portfolioIsotope.isotope({
+      filter: '.filter-photography'
+    });
+
     $('#portfolio-flters li').on('click', function() {
       $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
@@ -161,8 +165,15 @@
   });
 
   // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
+  $(".autoplay-portfolio").owlCarousel({
     autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
+  $(".not-autoplay-portfolio").owlCarousel({
+    autoplay: false,
     dots: true,
     loop: true,
     items: 1
