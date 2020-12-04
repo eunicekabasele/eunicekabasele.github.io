@@ -11,6 +11,9 @@
 .part {
   max-height: 400px;
 }
+.ok {
+  max-width: 350px;
+}
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -1116,7 +1119,7 @@ section .container {
 
 .portfolio-details .container {
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 .portfolio-details .portfolio-title {
@@ -1127,7 +1130,7 @@ section .container {
 
 .portfolio-details .portfolio-details-carousel .owl-nav,
 .portfolio-details .portfolio-details-carousel .owl-dots {
-  margin-top: 5px;
+  margin-top: -5px;
   text-align: center;
 }
 
