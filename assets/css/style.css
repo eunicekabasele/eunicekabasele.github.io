@@ -14,6 +14,15 @@
 .ok {
   max-width: 350px;
 }
+
+.pdf {
+  max-width: 550px;
+  padding-right: 32px;
+}
+
+.pdf-text {
+  font-size: 16px;
+}
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
