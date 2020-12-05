@@ -1278,3 +1278,11 @@ section .containeraz {
 .section-title .contact-ting {
   color: rgba(255, 255, 255, 0.8);
 }
+
+#intro {
+  margin: auto;
+}
+
+#shawarm {
+  font-size: 32px;
+}
