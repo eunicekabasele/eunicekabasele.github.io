@@ -398,7 +398,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: ##f8a5c2;
+  background: #f8a5c2;
   margin: 4px 10px;
 }
 
@@ -1251,4 +1251,30 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+
+.bigax h3 {
+  font-size: 90px;
+  /* line-height: 10px; */
+  /* text-align: center; */
+}
+
+.bigax p {
+  color: #aaaaaa;
+  padding-top: 10px;
+  font-size: 20px;
+  /* text-align: center; */
+}
+
+.emailaz {
+  color: #fff;
+}
+
+section .containeraz {
+  padding: 30px;
+  background: none;
+}
+
+.section-title .contact-ting {
+  color: rgba(255, 255, 255, 0.8);
 }
